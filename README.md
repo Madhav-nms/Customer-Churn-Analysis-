@@ -119,7 +119,7 @@ It includes **EDA, KPI & cohort analysis, A/B testing**, and **ML (Logistic Regr
   - Engineered **ARPU**, **NumServices**, **TenureGroup**.
 
 - **EDA & KPIs:**  
-  - Churn by **contract**, **payment**, **tenure cohorts**, **# services**.  
+  - Churn by **contract**, **payment**, **tenure cohorts**, ** services**.  
   - Visualized distributions and segment differences.
 
 - **A/B Testing:**  
@@ -133,7 +133,10 @@ It includes **EDA, KPI & cohort analysis, A/B testing**, and **ML (Logistic Regr
 
 ## Executive Summary
 
-This project analyzes **customer churn in a telecom company**, where ~27% of customers have left. Retaining customers is far more cost-effective than acquiring new ones, so the goal was to (1) identify churn drivers, (2) predict at-risk customers, and (3) recommend actions to improve retention.
+This project analyzes **customer churn in a telecom company**, where ~27% of customers have left. Retaining customers is far more cost-effective than acquiring new ones, so the goal was to 
+  (1) identify churn drivers, 
+  (2) predict at-risk customers, and 
+  (3) recommend actions to improve retention.
 
 **Key Findings:**
 - **Contract type is the biggest driver of churn:**  
