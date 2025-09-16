@@ -105,7 +105,7 @@ It includes **EDA, KPI & cohort analysis, A/B testing**, and **ML (Logistic Regr
 
 ## Dataset
 
-- **Source:** Telco Customer Churn (public dataset)  
+- **Source:** [Telco Customer Churn (Kaggle Dataset)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - **Rows:** ~7,043 customers · **Target:** `Churn` (Yes/No)  
 - **Main Feature Groups:** Demographics, Services, Contracts/Billing
 
