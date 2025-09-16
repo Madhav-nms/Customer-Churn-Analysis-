@@ -12,10 +12,13 @@ A telecom company is experiencing high customer churn and wants to focus on rete
 Telco Customer Churn dataset (Source: Kaggle)
 Features: 
 
--- Demographics: Gender, SeniorCitizen, Dependents
--- Services: Internet, Phone, Online Security, Backup, Tech Support, Streaming
--- Billing/Contract: Contract type, Payment method, Monthly & Total Charges
--- Target: Churn (Yes / No)
+-- Demographics: Gender, SeniorCitizen, Dependents.
+
+-- Services: Internet, Phone, Online Security, Backup, Tech Support, Streaming.
+
+-- Billing/Contract: Contract type, Payment method, Monthly & Total Charges.
+
+-- Target: Churn (Yes / No).
 
 ## Data Cleaning 
 
