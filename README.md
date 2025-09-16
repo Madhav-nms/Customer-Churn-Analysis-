@@ -3,10 +3,14 @@
 
 ## Problem Statement
 
-A telecom company is experiencing high customer churn and wants to focus on retention, which is more cost-effective than acquiring new customers. The business aims to:
-(1) identify factors driving churn, 
-(2) predict at-risk customers, and 
-(3) recommend actions to improve retention.
+A telecom company is experiencing high customer churn and wants to focus on retention, which is more cost-effective than acquiring new customers. 
+The business aims to:
+    
+    (1) identify factors driving churn, 
+    
+    (2) predict at-risk customers, and 
+    
+    (3) recommend actions to improve retention.
 
 ## Dataset 
 Telco Customer Churn dataset (Source: Kaggle)
