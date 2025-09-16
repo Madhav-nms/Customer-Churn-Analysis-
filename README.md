@@ -1,5 +1,10 @@
 # Telecom Customer Churn 
 
+<p align="center">
+  <img src="image.webp" alt="Customer Churn" width="600"/>
+</p>
+
+
 This project analyzes telecom customer data to find **why customers leave**, **who is at risk**, and **what actions can reduce churn**.  
 It includes **EDA, KPI & cohort analysis, A/B testing**, and **ML (Logistic Regression + Random Forest)** for explainability and prediction.
 
@@ -124,3 +129,38 @@ It includes **EDA, KPI & cohort analysis, A/B testing**, and **ML (Logistic Regr
   - **Logistic Regression** (explainable drivers)  
   - **Random Forest** (feature importance ranking)
 
+---
+
+## Executive Summary
+
+This project analyzes **customer churn in a telecom company**, where ~27% of customers have left. Retaining customers is far more cost-effective than acquiring new ones, so the goal was to (1) identify churn drivers, (2) predict at-risk customers, and (3) recommend actions to improve retention.
+
+**Key Findings:**
+- **Contract type is the biggest driver of churn:**  
+  - Month-to-month customers churn at **42.7%**, vs **11.3%** (one-year) and **2.8%** (two-year).  
+- **Payment method matters:**  
+  - Customers paying by **electronic check churn ~45%**, while **auto-pay users churn ~17%**.  
+- **Tenure effects:** Most churn happens in the **first 12 months**, after which loyalty increases.  
+- **Product stickiness:** Customers with **3+ services** churn far less than single-service customers.  
+- **Model insights:** Logistic Regression and Random Forest confirm that **tenure, contract length, and billing patterns (MonthlyCharges, TotalCharges, ARPU)** are the strongest churn predictors.  
+
+**Statistical Validation:**  
+Chi-Square tests confirm that both **contract type** and **payment method** have **statistically significant effects (p < 0.001)**, proving the differences are real and actionable.
+
+**Strategic Recommendations:**  
+1. **Promote long-term contracts** — incentives to shift month-to-month users to annual/multi-year plans.  
+2. **Encourage auto-pay enrollment** — small bill credits or one-click setup to move customers off electronic checks.  
+3. **Improve first-year onboarding** — proactive engagement, welcome nudges, and retention campaigns in the first 90 days.  
+4. **Bundle services** — packages that combine multiple add-ons to increase stickiness.  
+
+**Business Impact:**  
+By acting on these levers, the company can **reduce churn**, **boost retention**, and **increase RPU and profitability**, ensuring a healthier customer base and sustainable growth.
+
+---
+
+## Tools & Tech
+
+- **Python:** pandas, numpy, matplotlib, seaborn, scikit-learn, scipy  
+- **Methods:** EDA, cohort analysis, chi-square testing, logistic regression, random forest
+
+---
