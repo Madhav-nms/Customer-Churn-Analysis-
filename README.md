@@ -77,5 +77,5 @@ Customer churn is one of the most critical challenges for subscription based bus
 ## Dataset
 
 - **Source:** [Telco Customer Churn (Kaggle Dataset)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- **Rows:** ~7,043 customers · **Target:** `Churn` (Yes/No)  
+- **Rows:** ~7,043 customers · **Target:** Churn (Yes/No)  
 - **Main Feature Groups:** Demographics, Services, Contracts/Billing
